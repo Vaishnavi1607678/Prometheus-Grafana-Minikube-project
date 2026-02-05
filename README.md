@@ -194,6 +194,13 @@ Password: kubectl get secret --namespace monitoring grafana -o jsonpath="{.data.
 
 ---
 
+<img width="1920" height="1080" alt="Screenshot (1096)" src="https://github.com/user-attachments/assets/4d373ea1-bfb9-49dd-8a9f-a2c9432a0efa" />
+
+<img width="1920" height="1080" alt="Screenshot (1097)" src="https://github.com/user-attachments/assets/f9f1af69-f07f-4d0d-aead-1ced6e2026b8" />
+
+<img width="1920" height="1080" alt="Screenshot (1098)" src="https://github.com/user-attachments/assets/e6bdaec1-e3ff-4995-9234-259ef1bba1f9" />
+
+
 
 
 
