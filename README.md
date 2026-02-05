@@ -77,7 +77,7 @@ minikube service flask-metrics-app --url
 
 ---
 
-## 📈 Setting Up Prometheus
+##  Setting Up Prometheus
 
 ### 1. Install Helm
 
@@ -108,7 +108,7 @@ helm install prometheus prometheus-community/prometheus --namespace monitoring -
 
 ---
 
-## ⚙️ Configuring Prometheus to Scrape Flask Metrics
+##  Configuring Prometheus to Scrape Flask Metrics
 
 1. Retrieve Flask App Service IP:
 
@@ -141,7 +141,7 @@ kubectl port-forward -n monitoring svc/prometheus-server 9090:80
 
 ---
 
-## 📊 Installing Grafana
+##  Installing Grafana
 
 ### 1. Add Grafana Helm Chart
 
