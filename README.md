@@ -4,9 +4,7 @@ This repository provides a **complete guide to deploying a Flask application** o
 
 It’s beginner-friendly and packed with **practical instructions** for a seamless hands-on experience.
 
----
-
-## 📌 Table of Contents
+##  Table of Contents
 1. [Project Overview](#project-overview)
 2. [Getting Started with Flask App](#getting-started-with-flask-app)
 3. [Deploying Flask App on Minikube](#deploying-flask-app-on-minikube)
@@ -16,9 +14,9 @@ It’s beginner-friendly and packed with **practical instructions** for a seamle
 7. [Visualizing Metrics with Grafana Dashboards](#visualizing-metrics-with-grafana-dashboards)
 8. [Highlights](#highlights)
 
----
 
-## 📁 Project Overview
+
+##  Project Overview
 This project demonstrates:
 
 - Deploying a Flask application locally and on Minikube.
@@ -28,7 +26,7 @@ This project demonstrates:
 
 ---
 
-## 🐍 Getting Started with Flask App
+##  Getting Started with Flask App
 1. Prepare the Flask app locally.
 2. Ensure the app includes **metrics endpoints** for Prometheus to scrape, for example:
 ```python
@@ -43,7 +41,7 @@ def metrics():
 ---
 ```
 
-## 🏗 Deploying Flask App on Minikube
+##  Deploying Flask App on Minikube
 
 ### 1. Build Docker Image
 
@@ -173,7 +171,7 @@ Password: kubectl get secret --namespace monitoring grafana -o jsonpath="{.data.
 
 ---
 
-## 📊 Visualizing Metrics with Grafana Dashboards
+##  Visualizing Metrics with Grafana Dashboards
 
 1. **Add Prometheus as a Data Source**
 
@@ -188,7 +186,7 @@ Password: kubectl get secret --namespace monitoring grafana -o jsonpath="{.data.
 
 ---
 
-## 🌟 Highlights
+##  Highlights
 
 * **End-to-End Observability:** Full setup for monitoring Flask app with Prometheus & Grafana.
 * **Production-Ready Notes:** Steps for Minikube deployment and scaling considerations.
